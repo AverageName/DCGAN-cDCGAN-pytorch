@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from utils.norm import get_norm
 
 class transpose_block(nn.Module):
